@@ -1,7 +1,7 @@
 import Vue from 'vue'
-import App from './App.vue'
+import ParentBlockComponent from './parentBlockComponent.vue'
 
 new Vue({
-  el: '#app',
-  render: h => h(App)
+  el: '#parentBlockComponent',
+  render: h => h(ParentBlockComponent)
 })
