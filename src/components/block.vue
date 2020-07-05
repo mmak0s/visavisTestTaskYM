@@ -1,6 +1,6 @@
 <template>
     <div class="list-item" :class="block.additionClasses">
-        <img src="../img/rotatingSvg.svg" alt="Icon" class="animatedCircle" v-if="block.additionClasses">
+        <img src="img/rotatingSvg.svg" alt="Icon" class="animatedCircle" v-if="block.additionClasses">
         <div class="item__figure"></div>
         <h2 class="item__header">
             {{block.title}}
