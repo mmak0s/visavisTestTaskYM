@@ -64,3 +64,28 @@ export default {
   }
 }
 </script>
+
+<style lang="scss" scoped>
+.mainFirstComponent{
+    position: relative;
+    width: 100%;
+    max-width: 100vw;
+    min-height: 1340px;
+    background: #F9F9F9;
+    box-sizing: border-box;
+    // margin-top: 180px;
+    // padding-top: 160px;
+
+    .container{
+        max-width: 1400px;
+        margin-left: 325px;
+
+        .mainFirstComponent__list{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-column-gap: 160px;
+            grid-row-gap: 130px;
+        }
+    }
+}
+</style>
